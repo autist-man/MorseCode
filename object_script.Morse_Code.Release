@@ -1,0 +1,14 @@
+release/main.o
+release/mainwindow.o
+release/mainwidget.o
+release/fontdialog.o
+release/colordialog.o
+release/file.o
+release/savefile.o
+release/qrc_icon.o
+release/moc_mainwindow.o
+release/moc_mainwidget.o
+release/moc_fontdialog.o
+release/moc_colordialog.o
+release/moc_file.o
+release/moc_savefile.o

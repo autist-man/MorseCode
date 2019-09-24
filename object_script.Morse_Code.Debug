@@ -1,0 +1,14 @@
+debug/main.o
+debug/mainwindow.o
+debug/mainwidget.o
+debug/fontdialog.o
+debug/colordialog.o
+debug/file.o
+debug/savefile.o
+debug/qrc_icon.o
+debug/moc_mainwindow.o
+debug/moc_mainwidget.o
+debug/moc_fontdialog.o
+debug/moc_colordialog.o
+debug/moc_file.o
+debug/moc_savefile.o
