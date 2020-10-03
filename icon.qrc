@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/new/prefix1">
-        <file>tube_flask_icon_125400.ico</file>
-    </qresource>
-</RCC>

@@ -25,21 +25,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    mainwidget.cpp \
-    fontdialog.cpp \
-    colordialog.cpp \
-    file.cpp \
-    savefile.cpp
+        src/main.cpp \
+        src/mainwindow.cpp \
+    src/mainwidget.cpp \
+    src/fontdialog.cpp \
+    src/colordialog.cpp \
+    src/file.cpp \
+    src/savefile.cpp
 
 HEADERS += \
-        mainwindow.h \
-    mainwidget.h \
-    fontdialog.h \
-    colordialog.h \
-    file.h \
-    savefile.h
+        headers/mainwindow.h \
+    headers/mainwidget.h \
+    headers/fontdialog.h \
+    headers/colordialog.h \
+    headers/file.h \
+    headers/savefile.h
+
+INCLUDEPATH += src/
+INCLUDEPATH += headers/
+INCLUDEPATH += source/
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -47,4 +51,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    icon.qrc
+    source/icon.qrc
